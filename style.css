@@ -1,0 +1,90 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url(background.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: auto;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.4;
+	margin: 0;
+	display: flex;
+	font-size: 14pt;
+	height: 100%;
+	align-items: center;
+}
+
+.page {
+	max-width: 48em;
+	max-height: 95%;
+	max-height: calc(100vh - 5em);
+	margin: 1em auto;
+	overflow: auto;
+	text-align: center;
+	background: rgba(255, 255, 255, .65);
+	color: #000;
+	box-shadow: 0 0 2em 1em rgba(255, 255, 255, .1), 0 0 0 .4em #ff0;
+	padding: 1em;
+}
+
+.page h1 {
+	margin: .25em auto;
+	color: yellow;
+	text-shadow: .08em .08em rgba(0, 0, 0, .75);
+	letter-spacing: .05em;
+}
+
+.page h2 {
+	letter-spacing: .08em;
+	font-weight: normal;
+	color: #ff0;
+	margin: .25em auto;
+	display: inline-block;
+    background: #000;
+    transform: rotate(-4deg);
+    font-size: 1.1em;
+    padding: .2em;
+    line-height: 1;
+}
+
+.page p {
+	font-size: 1.1em;
+	margin: 1em auto;
+	padding: 0 2em;
+	opacity: .9;
+}
+
+.page a {
+	display: inline-block;
+	padding: .25em;
+	line-height: 1;
+	color: white;
+	background: #6ec0ff;
+	text-decoration: none;
+	transition: .15s ease all;
+}
+
+a.sign-up {
+	margin: .5em;
+	padding: .5em;
+	background: #ff0;
+	color: #000;
+	font-size: 1.5em;
+}
+
+a.sign-up:hover, a.sign-up:focus {
+	background: #000;
+	color: #ff0;
+	box-shadow: 0 0 0 .1em yellow;
+}
+
+.page a:hover, .page a:focus {
+	transform: scale(1.2);
+}
+
+a.fb {
+	background: #4267b2;
+}
